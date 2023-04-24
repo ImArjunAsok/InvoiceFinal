@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\InvoiceTrack.WebAPI.props" />
+</Project>

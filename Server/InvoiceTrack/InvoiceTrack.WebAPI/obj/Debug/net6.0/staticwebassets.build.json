@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "eC+hEHdSZbwIrLstxN3w8rmwF34A1zwxgME1gq0QO1g=",
+  "Source": "InvoiceTrack.WebAPI",
+  "BasePath": "_content/InvoiceTrack.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
