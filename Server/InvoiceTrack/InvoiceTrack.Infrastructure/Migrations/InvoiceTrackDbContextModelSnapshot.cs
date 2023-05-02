@@ -42,11 +42,9 @@ namespace InvoiceTrack.Infrastructure.Migrations
                         .HasColumnType("bit");
 
                     b.Property<string>("FirstName")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("LastName")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("LockoutEnabled")
@@ -99,17 +97,32 @@ namespace InvoiceTrack.Infrastructure.Migrations
                         {
                             Id = "1",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "ece7683c-2c55-497e-b13f-df3b483e9ccf",
+                            ConcurrencyStamp = "3b9a1a3c-76f1-4f8e-b7fa-8c973053b5f0",
                             Email = "admin@mail.com",
                             EmailConfirmed = false,
                             FirstName = "Admin",
                             LastName = "Admin",
                             LockoutEnabled = false,
-                            PasswordHash = "AQAAAAEAACcQAAAAEIKfjl/8cmSYw+vwD0RUQHcS7TX0NH/zrvww7iRoFPkNY/9Bv2OLQgpfXgOq+YsWaw==",
+                            NormalizedEmail = "ADMIN@MAIL.COM",
+                            PasswordHash = "AQAAAAEAACcQAAAAEFGu+8PxN8wxvVHm18MBj7eiRuMyBYvP5RUpnfLZIGonJRxP1ga/szj5078tY+/iKQ==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "9a919eea-a510-44d6-bba6-2aece0acbf52",
+                            SecurityStamp = "bf257856-391b-4827-9d3d-be5e4e87ff63",
                             TwoFactorEnabled = false,
-                            UserName = "42a2be2c-ccec-44f0-bb8b-5de0cc10d723"
+                            UserName = "4cad9192-bb45-48e1-a0c5-ba882a8fed28"
+                        },
+                        new
+                        {
+                            Id = "2",
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "6d63a697-df70-4c10-a267-cb1a5b42b56f",
+                            Email = "arjun.asok@experionglobal.com",
+                            EmailConfirmed = false,
+                            LockoutEnabled = false,
+                            NormalizedEmail = "ARJUN.ASOK@EXPERIONGLOBAL.COM",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "66f74707-b1f1-4c3c-aa87-577cc6303521",
+                            TwoFactorEnabled = false,
+                            UserName = "8dd6bcdc-14f1-4cc9-a2cb-fcca79771f1a"
                         });
                 });
 
@@ -254,6 +267,11 @@ namespace InvoiceTrack.Infrastructure.Migrations
                         {
                             UserId = "1",
                             RoleId = "1"
+                        },
+                        new
+                        {
+                            UserId = "2",
+                            RoleId = "3"
                         });
                 });
 

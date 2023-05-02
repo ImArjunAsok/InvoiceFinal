@@ -54,11 +54,11 @@ builder.Services.AddAuthentication(options =>
             IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtKey))
         };
     })
-.AddMicrosoftAccount(microsoftOptions =>
-{
-    microsoftOptions.ClientId = builder.Configuration["Authentication:Microsoft:ClientId"];
-    microsoftOptions.ClientSecret = builder.Configuration["Authentication:Microsoft:ClientSecret"];
-});
+    .AddMicrosoftAccount(microsoftOptions =>
+    {
+         microsoftOptions.ClientId = builder.Configuration["Authentication:Microsoft:ClientId"];
+         microsoftOptions.ClientSecret = builder.Configuration["Authentication:Microsoft:ClientSecret"];
+    });
 
 builder.Services.AddScoped<ILoginService, LoginService>();
 

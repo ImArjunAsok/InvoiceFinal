@@ -14,7 +14,6 @@ export class TokenHandler {
 
     getDecodedToken(): any {
         const token = this.getToken();
-        console.log(token);
 
         if (!token) {
             return null

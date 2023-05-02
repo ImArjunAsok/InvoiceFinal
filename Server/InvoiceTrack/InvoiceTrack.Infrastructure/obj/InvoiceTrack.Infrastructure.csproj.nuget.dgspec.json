@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\arjun.asok\\Desktop\\Invoice new\\Server\\InvoiceTrack\\InvoiceTrack.Infrastructure\\InvoiceTrack.Infrastructure.csproj": {}
+    "C:\\Users\\arjun.asok\\Documents\\GitHub\\InvoiceFinal\\Server\\InvoiceTrack\\InvoiceTrack.Infrastructure\\InvoiceTrack.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\arjun.asok\\Desktop\\Invoice new\\Server\\InvoiceTrack\\InvoiceTrack.Core.Application\\InvoiceTrack.Core.Application.csproj": {
+    "C:\\Users\\arjun.asok\\Documents\\GitHub\\InvoiceFinal\\Server\\InvoiceTrack\\InvoiceTrack.Core.Application\\InvoiceTrack.Core.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\arjun.asok\\Desktop\\Invoice new\\Server\\InvoiceTrack\\InvoiceTrack.Core.Application\\InvoiceTrack.Core.Application.csproj",
+        "projectUniqueName": "C:\\Users\\arjun.asok\\Documents\\GitHub\\InvoiceFinal\\Server\\InvoiceTrack\\InvoiceTrack.Core.Application\\InvoiceTrack.Core.Application.csproj",
         "projectName": "InvoiceTrack.Core.Application",
-        "projectPath": "C:\\Users\\arjun.asok\\Desktop\\Invoice new\\Server\\InvoiceTrack\\InvoiceTrack.Core.Application\\InvoiceTrack.Core.Application.csproj",
+        "projectPath": "C:\\Users\\arjun.asok\\Documents\\GitHub\\InvoiceFinal\\Server\\InvoiceTrack\\InvoiceTrack.Core.Application\\InvoiceTrack.Core.Application.csproj",
         "packagesPath": "C:\\Users\\arjun.asok\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\arjun.asok\\Desktop\\Invoice new\\Server\\InvoiceTrack\\InvoiceTrack.Core.Application\\obj\\",
+        "outputPath": "C:\\Users\\arjun.asok\\Documents\\GitHub\\InvoiceFinal\\Server\\InvoiceTrack\\InvoiceTrack.Core.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\arjun.asok\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\arjun.asok\\Desktop\\Invoice new\\Server\\InvoiceTrack\\InvoiceTrack.Core.Domain\\InvoiceTrack.Core.Domain.csproj": {
-                "projectPath": "C:\\Users\\arjun.asok\\Desktop\\Invoice new\\Server\\InvoiceTrack\\InvoiceTrack.Core.Domain\\InvoiceTrack.Core.Domain.csproj"
+              "C:\\Users\\arjun.asok\\Documents\\GitHub\\InvoiceFinal\\Server\\InvoiceTrack\\InvoiceTrack.Core.Domain\\InvoiceTrack.Core.Domain.csproj": {
+                "projectPath": "C:\\Users\\arjun.asok\\Documents\\GitHub\\InvoiceFinal\\Server\\InvoiceTrack\\InvoiceTrack.Core.Domain\\InvoiceTrack.Core.Domain.csproj"
               }
             }
           }
@@ -63,14 +63,14 @@
         }
       }
     },
-    "C:\\Users\\arjun.asok\\Desktop\\Invoice new\\Server\\InvoiceTrack\\InvoiceTrack.Core.Domain\\InvoiceTrack.Core.Domain.csproj": {
+    "C:\\Users\\arjun.asok\\Documents\\GitHub\\InvoiceFinal\\Server\\InvoiceTrack\\InvoiceTrack.Core.Domain\\InvoiceTrack.Core.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\arjun.asok\\Desktop\\Invoice new\\Server\\InvoiceTrack\\InvoiceTrack.Core.Domain\\InvoiceTrack.Core.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\arjun.asok\\Documents\\GitHub\\InvoiceFinal\\Server\\InvoiceTrack\\InvoiceTrack.Core.Domain\\InvoiceTrack.Core.Domain.csproj",
         "projectName": "InvoiceTrack.Core.Domain",
-        "projectPath": "C:\\Users\\arjun.asok\\Desktop\\Invoice new\\Server\\InvoiceTrack\\InvoiceTrack.Core.Domain\\InvoiceTrack.Core.Domain.csproj",
+        "projectPath": "C:\\Users\\arjun.asok\\Documents\\GitHub\\InvoiceFinal\\Server\\InvoiceTrack\\InvoiceTrack.Core.Domain\\InvoiceTrack.Core.Domain.csproj",
         "packagesPath": "C:\\Users\\arjun.asok\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\arjun.asok\\Desktop\\Invoice new\\Server\\InvoiceTrack\\InvoiceTrack.Core.Domain\\obj\\",
+        "outputPath": "C:\\Users\\arjun.asok\\Documents\\GitHub\\InvoiceFinal\\Server\\InvoiceTrack\\InvoiceTrack.Core.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\arjun.asok\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -124,14 +124,14 @@
         }
       }
     },
-    "C:\\Users\\arjun.asok\\Desktop\\Invoice new\\Server\\InvoiceTrack\\InvoiceTrack.Infrastructure\\InvoiceTrack.Infrastructure.csproj": {
+    "C:\\Users\\arjun.asok\\Documents\\GitHub\\InvoiceFinal\\Server\\InvoiceTrack\\InvoiceTrack.Infrastructure\\InvoiceTrack.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\arjun.asok\\Desktop\\Invoice new\\Server\\InvoiceTrack\\InvoiceTrack.Infrastructure\\InvoiceTrack.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\arjun.asok\\Documents\\GitHub\\InvoiceFinal\\Server\\InvoiceTrack\\InvoiceTrack.Infrastructure\\InvoiceTrack.Infrastructure.csproj",
         "projectName": "InvoiceTrack.Infrastructure",
-        "projectPath": "C:\\Users\\arjun.asok\\Desktop\\Invoice new\\Server\\InvoiceTrack\\InvoiceTrack.Infrastructure\\InvoiceTrack.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\arjun.asok\\Documents\\GitHub\\InvoiceFinal\\Server\\InvoiceTrack\\InvoiceTrack.Infrastructure\\InvoiceTrack.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\arjun.asok\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\arjun.asok\\Desktop\\Invoice new\\Server\\InvoiceTrack\\InvoiceTrack.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\arjun.asok\\Documents\\GitHub\\InvoiceFinal\\Server\\InvoiceTrack\\InvoiceTrack.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\arjun.asok\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -148,11 +148,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\arjun.asok\\Desktop\\Invoice new\\Server\\InvoiceTrack\\InvoiceTrack.Core.Application\\InvoiceTrack.Core.Application.csproj": {
-                "projectPath": "C:\\Users\\arjun.asok\\Desktop\\Invoice new\\Server\\InvoiceTrack\\InvoiceTrack.Core.Application\\InvoiceTrack.Core.Application.csproj"
+              "C:\\Users\\arjun.asok\\Documents\\GitHub\\InvoiceFinal\\Server\\InvoiceTrack\\InvoiceTrack.Core.Application\\InvoiceTrack.Core.Application.csproj": {
+                "projectPath": "C:\\Users\\arjun.asok\\Documents\\GitHub\\InvoiceFinal\\Server\\InvoiceTrack\\InvoiceTrack.Core.Application\\InvoiceTrack.Core.Application.csproj"
               },
-              "C:\\Users\\arjun.asok\\Desktop\\Invoice new\\Server\\InvoiceTrack\\InvoiceTrack.Core.Domain\\InvoiceTrack.Core.Domain.csproj": {
-                "projectPath": "C:\\Users\\arjun.asok\\Desktop\\Invoice new\\Server\\InvoiceTrack\\InvoiceTrack.Core.Domain\\InvoiceTrack.Core.Domain.csproj"
+              "C:\\Users\\arjun.asok\\Documents\\GitHub\\InvoiceFinal\\Server\\InvoiceTrack\\InvoiceTrack.Core.Domain\\InvoiceTrack.Core.Domain.csproj": {
+                "projectPath": "C:\\Users\\arjun.asok\\Documents\\GitHub\\InvoiceFinal\\Server\\InvoiceTrack\\InvoiceTrack.Core.Domain\\InvoiceTrack.Core.Domain.csproj"
               }
             }
           }

@@ -824,11 +824,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\arjun.asok\\Desktop\\Invoice new\\Server\\InvoiceTrack\\InvoiceTrack.Core.Domain\\InvoiceTrack.Core.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\arjun.asok\\Documents\\GitHub\\InvoiceFinal\\Server\\InvoiceTrack\\InvoiceTrack.Core.Domain\\InvoiceTrack.Core.Domain.csproj",
       "projectName": "InvoiceTrack.Core.Domain",
-      "projectPath": "C:\\Users\\arjun.asok\\Desktop\\Invoice new\\Server\\InvoiceTrack\\InvoiceTrack.Core.Domain\\InvoiceTrack.Core.Domain.csproj",
+      "projectPath": "C:\\Users\\arjun.asok\\Documents\\GitHub\\InvoiceFinal\\Server\\InvoiceTrack\\InvoiceTrack.Core.Domain\\InvoiceTrack.Core.Domain.csproj",
       "packagesPath": "C:\\Users\\arjun.asok\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\arjun.asok\\Desktop\\Invoice new\\Server\\InvoiceTrack\\InvoiceTrack.Core.Domain\\obj\\",
+      "outputPath": "C:\\Users\\arjun.asok\\Documents\\GitHub\\InvoiceFinal\\Server\\InvoiceTrack\\InvoiceTrack.Core.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\arjun.asok\\AppData\\Roaming\\NuGet\\NuGet.Config",

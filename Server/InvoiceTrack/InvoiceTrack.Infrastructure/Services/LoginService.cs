@@ -4,10 +4,12 @@ using InvoiceTrack.Core.Domain.Models;
 using InvoiceTrack.Core.Domain.Type;
 using InvoiceTrack.Infrastructure.Context;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
+using System.Security.Principal;
 using System.Text;
 
 namespace InvoiceTrack.Infrastructure.Services
@@ -29,13 +31,13 @@ namespace InvoiceTrack.Infrastructure.Services
             _configuration = configuration;
             _userManager = userManager;
         }
-        public async Task<ServiceResponse<string>> AdminLoginAsync(AdminLoginDto dto)
+        public async Task<ServiceResponse<string>> AdminLoginAsync(LoginDto dto)
         {
             var response = new ServiceResponse<string>();
             var user = await _userManager.FindByEmailAsync(dto.Email);
             if (user == null)
             {
-                response.AddError("", "Email not found");
+                response.AddError("", "Email entered not found");
                 return response;
             }
             var signin = await _signInManager.CheckPasswordSignInAsync(user, dto.Password, true);
@@ -44,7 +46,7 @@ namespace InvoiceTrack.Infrastructure.Services
                 response.Result = GenerateToken(user);
                 return response;
             }
-            response.AddError("", "Not able to login. Recheck your Email and password");
+            response.AddError("", "Unable to login. Recheck your Email and password!");
             return response;
         }
 
@@ -72,6 +74,47 @@ namespace InvoiceTrack.Infrastructure.Services
                 signingCredentials: credentials
                 );
             return new JwtSecurityTokenHandler().WriteToken(token);
+        }
+
+        public async Task<ServiceResponse<string>> ExternalAuthenticationAsync(string token, string provider)
+        {
+            var response = new ServiceResponse<string>();
+            var newToken = new JwtSecurityToken(token);
+            var claims = newToken.Claims;
+            string email = claims.First(c => c.Type == "preferred_username").Value;
+            string oid = claims.First(c => c.Type == "oid").Value;
+            string fullName = claims.First(c => c.Type == "name").Value;
+            string[] nameParts = fullName.Split(' ');
+            string firstName = nameParts[0];
+            string[] lastNameParts = nameParts.Skip(1).ToArray();
+            string lastName = string.Join(" ", lastNameParts);
+            var user = await _userManager.FindByEmailAsync(email);
+            if (user == null)
+            {
+                response.AddError("", "Unauthorized entry");
+                return response;
+            }
+            var demo = await _db.UserLogins.FirstOrDefaultAsync(c => c.UserId == user.Id);
+            if (demo == null)
+            {
+                user.FirstName = firstName;
+                user.LastName = lastName;
+                await _db.SaveChangesAsync();
+                var loginInfo = new UserLoginInfo(provider, oid, provider);
+                var signin = await _userManager.AddLoginAsync(user, loginInfo);
+                if (signin.Succeeded)
+                {
+                    response.Result = GenerateToken(user);
+                    return response;
+                }
+                response.AddError("", "Not able to login. Recheck your external account credentials.");
+                return response;
+            }
+            else
+            {
+                response.Result = GenerateToken(user);
+                return response;
+            }
         }
     }
 }

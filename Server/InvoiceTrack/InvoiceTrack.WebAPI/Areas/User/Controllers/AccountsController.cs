@@ -27,45 +27,52 @@ namespace InvoiceTrack.WebAPI.Areas.User.Controllers
         }
 
         [HttpPost("AdminLogin")]
-        public async Task<IActionResult> AdminLogin(AdminLoginDto dto)
+        public async Task<IActionResult> AdminLogin(LoginDto dto)
         {
             var res = await _loginService.AdminLoginAsync(dto);
             return Ok(res);
         }
 
-        [HttpGet("ExternalLogin")]
-        public IActionResult ExternalLogin()
+        [HttpPost("ExternalLogin")]
+        public async Task<IActionResult> ExternalAuthentication(ExternalAuthDto dto)
         {
-            //var redirectUrl = Url.Action(nameof(ExternalLoginCallback), "Account");
-            var redirectUrl = "/api/Accounts/MicrosoftLogin";
-            var properties = _signInManager.ConfigureExternalAuthenticationProperties(MicrosoftAccountDefaults.AuthenticationScheme, redirectUrl);
-            return Challenge(properties, MicrosoftAccountDefaults.AuthenticationScheme);
+            var res = await _loginService.ExternalAuthenticationAsync(dto.Token, dto.Provider);
+            return Ok(res);
         }
 
-        [HttpGet("MicrosoftLogin")]
-        public async Task<IActionResult> ExternalLoginCallback()
-        {
-            var res = new ServiceResponse<string>();
-            var info = await _signInManager.GetExternalLoginInfoAsync();
-            if (info == null)
-            {
-                res.AddError("", "No account found");
-                return Ok(res);
-            }
-            //var signInResult = await _signInManager.ExternalLoginSignInAsync(info.LoginProvider, info.ProviderKey, isPersistent: false, bypassTwoFactor: true);
-            //if (signInResult.Succeeded)
-            //{
-            //    Console.WriteLine(signInResult);
-            //    res.Result = "true";
-            //    return Ok;
-            //}
-            //else
-            //{
-            //    var email = info.Principal.FindFirstValue(ClaimTypes.Email);
-            //    res.Result = email;
-            //    return res;
-            //}
-            return Ok();
-        }
+        //[HttpGet("ExternalLogin")]
+        //public IActionResult ExternalLogin()
+        //{
+        //    //var redirectUrl = Url.Action(nameof(ExternalLoginCallback), "Account");
+        //    var redirectUrl = "/api/Accounts/MicrosoftLogin";
+        //    var properties = _signInManager.ConfigureExternalAuthenticationProperties(MicrosoftAccountDefaults.AuthenticationScheme, redirectUrl);
+        //    return Challenge(properties, MicrosoftAccountDefaults.AuthenticationScheme);
+        //}
+
+        //[HttpGet("MicrosoftLogin")]
+        //public async Task<IActionResult> ExternalLoginCallback()
+        //{
+        //    var res = new ServiceResponse<string>();
+        //    var info = await _signInManager.GetExternalLoginInfoAsync();
+        //    if (info == null)
+        //    {
+        //        res.AddError("", "No account found");
+        //        return Ok(res);
+        //    }
+        //    var signInResult = await _signInManager.ExternalLoginSignInAsync(info.LoginProvider, info.ProviderKey, isPersistent: false, bypassTwoFactor: true);
+        //    //if (signInResult.Succeeded)
+        //    //{
+        //    //    Console.WriteLine(signInResult);
+        //    //    res.Result = "true";
+        //    //    return Ok;
+        //    //}
+        //    //else
+        //    //{
+        //    //    var email = info.Principal.FindFirstValue(ClaimTypes.Email);
+        //    //    res.Result = email;
+        //    //    return res;
+        //    //}
+        //    return Ok();
+        //}
     }
 }

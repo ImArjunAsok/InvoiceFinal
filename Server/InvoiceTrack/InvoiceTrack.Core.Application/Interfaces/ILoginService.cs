@@ -10,6 +10,8 @@ namespace InvoiceTrack.Core.Application.Interfaces
 {
     public interface ILoginService
     {
-        Task<ServiceResponse<string>> AdminLoginAsync (AdminLoginDto dto);
+        Task<ServiceResponse<string>> AdminLoginAsync (LoginDto dto);
+
+        Task<ServiceResponse<string>> ExternalAuthenticationAsync(string token, string provider);
     }
 }

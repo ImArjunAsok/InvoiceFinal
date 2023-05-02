@@ -24,4 +24,17 @@ export class AccountsService {
     })
     return res;
   }
+
+  microsoftLogin(model: any) {
+    var res = this.http.post(this.url + "ExternalLogin", model);
+    res.subscribe({
+      next: (res: any) => {
+        if (res.isValid)
+          this.tokenHandler.setToken(res.result);
+        else
+          this.tokenHandler.removeToken();
+      }
+    })
+    return res;
+  }
 }

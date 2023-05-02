@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3BDRlxTiIlYj10q8JOT+2cy5PC5/a7NpBUJEmzqAq8LjqVylaYJrRsOpWjwAyR8JBEBvvdNupK/TH/8haO1c1g==",
+  "dgSpecHash": "pY83dLuSP/8nCbOPEHkYWfqL04mNzKFx7DIr1sE5HOB9ObmSFy7QsJxvKTrzUqpaOY3Y1ZXAMEJUbDa3xMZw5g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\arjun.asok\\Desktop\\Invoice new\\Server\\InvoiceTrack\\InvoiceTrack.Core.Domain\\InvoiceTrack.Core.Domain.csproj",
+  "projectFilePath": "C:\\Users\\arjun.asok\\Documents\\GitHub\\InvoiceFinal\\Server\\InvoiceTrack\\InvoiceTrack.Core.Domain\\InvoiceTrack.Core.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\arjun.asok\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.16\\microsoft.aspnetcore.cryptography.internal.6.0.16.nupkg.sha512",
     "C:\\Users\\arjun.asok\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.16\\microsoft.aspnetcore.cryptography.keyderivation.6.0.16.nupkg.sha512",
