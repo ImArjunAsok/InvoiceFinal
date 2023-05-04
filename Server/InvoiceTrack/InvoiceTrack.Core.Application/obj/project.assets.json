@@ -837,19 +837,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\prince.george\\.nuget\\packages\\": {}
+    "C:\\Users\\fathima.as\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\prince.george\\Desktop\\InvoiceTrack\\InvoiceFinal\\Server\\InvoiceTrack\\InvoiceTrack.Core.Application\\InvoiceTrack.Core.Application.csproj",
+      "projectUniqueName": "C:\\Users\\fathima.as\\Documents\\GitHub\\InvoiceFinal\\Server\\InvoiceTrack\\InvoiceTrack.Core.Application\\InvoiceTrack.Core.Application.csproj",
       "projectName": "InvoiceTrack.Core.Application",
-      "projectPath": "C:\\Users\\prince.george\\Desktop\\InvoiceTrack\\InvoiceFinal\\Server\\InvoiceTrack\\InvoiceTrack.Core.Application\\InvoiceTrack.Core.Application.csproj",
-      "packagesPath": "C:\\Users\\prince.george\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\prince.george\\Desktop\\InvoiceTrack\\InvoiceFinal\\Server\\InvoiceTrack\\InvoiceTrack.Core.Application\\obj\\",
+      "projectPath": "C:\\Users\\fathima.as\\Documents\\GitHub\\InvoiceFinal\\Server\\InvoiceTrack\\InvoiceTrack.Core.Application\\InvoiceTrack.Core.Application.csproj",
+      "packagesPath": "C:\\Users\\fathima.as\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\fathima.as\\Documents\\GitHub\\InvoiceFinal\\Server\\InvoiceTrack\\InvoiceTrack.Core.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\prince.george\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\fathima.as\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -863,8 +863,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\prince.george\\Desktop\\InvoiceTrack\\InvoiceFinal\\Server\\InvoiceTrack\\InvoiceTrack.Core.Domain\\InvoiceTrack.Core.Domain.csproj": {
-              "projectPath": "C:\\Users\\prince.george\\Desktop\\InvoiceTrack\\InvoiceFinal\\Server\\InvoiceTrack\\InvoiceTrack.Core.Domain\\InvoiceTrack.Core.Domain.csproj"
+            "C:\\Users\\fathima.as\\Documents\\GitHub\\InvoiceFinal\\Server\\InvoiceTrack\\InvoiceTrack.Core.Domain\\InvoiceTrack.Core.Domain.csproj": {
+              "projectPath": "C:\\Users\\fathima.as\\Documents\\GitHub\\InvoiceFinal\\Server\\InvoiceTrack\\InvoiceTrack.Core.Domain\\InvoiceTrack.Core.Domain.csproj"
             }
           }
         }
@@ -889,20 +889,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.13, 6.0.13]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.13, 6.0.13]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[6.0.13, 6.0.13]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"

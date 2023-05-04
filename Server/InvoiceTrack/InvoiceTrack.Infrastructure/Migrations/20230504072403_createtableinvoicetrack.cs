@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace InvoiceTrack.Infrastructure.Migrations
 {
-    public partial class CreateTables : Migration
+    public partial class createtableinvoicetrack : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -171,8 +171,8 @@ namespace InvoiceTrack.Infrastructure.Migrations
                 columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "FirstName", "LastName", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
                 values: new object[,]
                 {
-                    { "1", 0, "2f4892db-3031-413b-ad98-0b43ac3aacb8", "admin@mail.com", false, "Admin", "Admin", false, null, "ADMIN@MAIL.COM", null, "AQAAAAEAACcQAAAAEBCjdepQ0+kE1zE8dCswPsOZPnYblsVinGSEPUb0PAvSYGdC0hcbTNVoeIg5ptOuSg==", null, false, "39a53874-e488-4e3a-b678-3e80489e8fe7", false, "c4b7a1bc-0a12-4d32-ad92-a790f16eaba4" },
-                    { "2", 0, "6d988a96-b59f-40b4-af4e-3a7b59f6437a", "prince.george@experionglobal.com", false, null, null, false, null, "PRINCE.GEORGE@EXPERIONGLOBAL.COM", null, null, null, false, "79f04c19-d0f6-4c0f-850f-d9a92ac8db21", false, "86247d6a-2ff0-40b5-b49c-91555250bd5f" }
+                    { "1", 0, "6f96ae93-4697-4048-be66-a32a3aa6f302", "admin@mail.com", false, "Admin", "Admin", false, null, "ADMIN@MAIL.COM", null, "AQAAAAEAACcQAAAAECEHMD3Iv7kdN4csSrQ3mWDapvW/Yf9il3jujouh2ooVQrtUWtP3SXQE0iwdUt77tQ==", null, false, "2efba798-4f92-48ba-ab97-48cd7386d76c", false, "75cc2d92-686a-4f1b-bb23-60f14e06a2a7" },
+                    { "2", 0, "fec91312-271f-4722-b345-8ec2957ca919", "fathima.as@experionglobal.com", false, null, null, false, null, "FATHIMA.AS@EXPERIONGLOBAL.COM", null, null, null, false, "91acd7d0-ca46-4ab0-a091-378f45f119a1", false, "f94d7044-71ea-4377-993b-b6c175cefb21" }
                 });
 
             migrationBuilder.InsertData(
@@ -183,7 +183,7 @@ namespace InvoiceTrack.Infrastructure.Migrations
             migrationBuilder.InsertData(
                 table: "AspNetUserRoles",
                 columns: new[] { "RoleId", "UserId" },
-                values: new object[] { "3", "2" });
+                values: new object[] { "2", "2" });
 
             migrationBuilder.CreateIndex(
                 name: "IX_AspNetRoleClaims_RoleId",
