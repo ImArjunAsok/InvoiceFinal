@@ -819,19 +819,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\arjun.asok\\.nuget\\packages\\": {}
+    "C:\\Users\\prince.george\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\arjun.asok\\Documents\\GitHub\\InvoiceFinal\\Server\\InvoiceTrack\\InvoiceTrack.Core.Domain\\InvoiceTrack.Core.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\prince.george\\Desktop\\InvoiceTrack\\InvoiceFinal\\Server\\InvoiceTrack\\InvoiceTrack.Core.Domain\\InvoiceTrack.Core.Domain.csproj",
       "projectName": "InvoiceTrack.Core.Domain",
-      "projectPath": "C:\\Users\\arjun.asok\\Documents\\GitHub\\InvoiceFinal\\Server\\InvoiceTrack\\InvoiceTrack.Core.Domain\\InvoiceTrack.Core.Domain.csproj",
-      "packagesPath": "C:\\Users\\arjun.asok\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\arjun.asok\\Documents\\GitHub\\InvoiceFinal\\Server\\InvoiceTrack\\InvoiceTrack.Core.Domain\\obj\\",
+      "projectPath": "C:\\Users\\prince.george\\Desktop\\InvoiceTrack\\InvoiceFinal\\Server\\InvoiceTrack\\InvoiceTrack.Core.Domain\\InvoiceTrack.Core.Domain.csproj",
+      "packagesPath": "C:\\Users\\prince.george\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\prince.george\\Desktop\\InvoiceTrack\\InvoiceFinal\\Server\\InvoiceTrack\\InvoiceTrack.Core.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\arjun.asok\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\prince.george\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -873,6 +873,20 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.13, 6.0.13]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.13, 6.0.13]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.13, 6.0.13]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"

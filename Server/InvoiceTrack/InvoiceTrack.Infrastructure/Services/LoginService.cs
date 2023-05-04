@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
+using System.Net;
 using System.Security.Claims;
 using System.Security.Principal;
 using System.Text;
@@ -37,7 +38,7 @@ namespace InvoiceTrack.Infrastructure.Services
             var user = await _userManager.FindByEmailAsync(dto.Email);
             if (user == null)
             {
-                response.AddError("", "Email entered not found");
+                response.AddError("", "Email entered not found.");
                 return response;
             }
             var signin = await _signInManager.CheckPasswordSignInAsync(user, dto.Password, true);
@@ -46,7 +47,7 @@ namespace InvoiceTrack.Infrastructure.Services
                 response.Result = GenerateToken(user);
                 return response;
             }
-            response.AddError("", "Unable to login. Recheck your Email and password!");
+            response.AddError("", "Unable to login, recheck your email and password.");
             return response;
         }
 
@@ -91,7 +92,7 @@ namespace InvoiceTrack.Infrastructure.Services
             var user = await _userManager.FindByEmailAsync(email);
             if (user == null)
             {
-                response.AddError("", "Unauthorized entry");
+                response.AddError("", "Your authorization failed.Please try refreshing the page and fill in the correct credentials.");
                 return response;
             }
             var demo = await _db.UserLogins.FirstOrDefaultAsync(c => c.UserId == user.Id);
@@ -107,7 +108,7 @@ namespace InvoiceTrack.Infrastructure.Services
                     response.Result = GenerateToken(user);
                     return response;
                 }
-                response.AddError("", "Not able to login. Recheck your external account credentials.");
+                response.AddError("", "Your authorization failed. Please try refreshing the page and fill in the correct credentials.");
                 return response;
             }
             else
