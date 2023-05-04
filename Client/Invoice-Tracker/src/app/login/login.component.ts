@@ -43,9 +43,9 @@ export class LoginComponent implements OnInit {
         }
         else {
           Swal.fire(
-            'Did you enter the correct email?',
+            'Did you enter the correct credentials?',
             res.errors[""][0],
-            'question'
+            'question'            
           )
         }
       }
@@ -73,7 +73,7 @@ export class LoginComponent implements OnInit {
             }
             else {
               Swal.fire(
-                'Oops?',
+                '401- Unauthorized',
                 res.errors[""][0],
                 'error'
               )

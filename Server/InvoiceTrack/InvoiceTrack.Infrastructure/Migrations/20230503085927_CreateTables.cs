@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace InvoiceTrack.Infrastructure.Migrations
 {
-    public partial class InitialMigration : Migration
+    public partial class CreateTables : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -171,8 +171,8 @@ namespace InvoiceTrack.Infrastructure.Migrations
                 columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "FirstName", "LastName", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
                 values: new object[,]
                 {
-                    { "1", 0, "3b9a1a3c-76f1-4f8e-b7fa-8c973053b5f0", "admin@mail.com", false, "Admin", "Admin", false, null, "ADMIN@MAIL.COM", null, "AQAAAAEAACcQAAAAEFGu+8PxN8wxvVHm18MBj7eiRuMyBYvP5RUpnfLZIGonJRxP1ga/szj5078tY+/iKQ==", null, false, "bf257856-391b-4827-9d3d-be5e4e87ff63", false, "4cad9192-bb45-48e1-a0c5-ba882a8fed28" },
-                    { "2", 0, "6d63a697-df70-4c10-a267-cb1a5b42b56f", "arjun.asok@experionglobal.com", false, null, null, false, null, "ARJUN.ASOK@EXPERIONGLOBAL.COM", null, null, null, false, "66f74707-b1f1-4c3c-aa87-577cc6303521", false, "8dd6bcdc-14f1-4cc9-a2cb-fcca79771f1a" }
+                    { "1", 0, "2f4892db-3031-413b-ad98-0b43ac3aacb8", "admin@mail.com", false, "Admin", "Admin", false, null, "ADMIN@MAIL.COM", null, "AQAAAAEAACcQAAAAEBCjdepQ0+kE1zE8dCswPsOZPnYblsVinGSEPUb0PAvSYGdC0hcbTNVoeIg5ptOuSg==", null, false, "39a53874-e488-4e3a-b678-3e80489e8fe7", false, "c4b7a1bc-0a12-4d32-ad92-a790f16eaba4" },
+                    { "2", 0, "6d988a96-b59f-40b4-af4e-3a7b59f6437a", "prince.george@experionglobal.com", false, null, null, false, null, "PRINCE.GEORGE@EXPERIONGLOBAL.COM", null, null, null, false, "79f04c19-d0f6-4c0f-850f-d9a92ac8db21", false, "86247d6a-2ff0-40b5-b49c-91555250bd5f" }
                 });
 
             migrationBuilder.InsertData(

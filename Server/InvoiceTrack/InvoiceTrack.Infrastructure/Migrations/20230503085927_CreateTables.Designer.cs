@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace InvoiceTrack.Infrastructure.Migrations
 {
     [DbContext(typeof(InvoiceTrackDbContext))]
-    [Migration("20230425074741_InitialMigration")]
-    partial class InitialMigration
+    [Migration("20230503085927_CreateTables")]
+    partial class CreateTables
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -99,32 +99,32 @@ namespace InvoiceTrack.Infrastructure.Migrations
                         {
                             Id = "1",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "3b9a1a3c-76f1-4f8e-b7fa-8c973053b5f0",
+                            ConcurrencyStamp = "2f4892db-3031-413b-ad98-0b43ac3aacb8",
                             Email = "admin@mail.com",
                             EmailConfirmed = false,
                             FirstName = "Admin",
                             LastName = "Admin",
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@MAIL.COM",
-                            PasswordHash = "AQAAAAEAACcQAAAAEFGu+8PxN8wxvVHm18MBj7eiRuMyBYvP5RUpnfLZIGonJRxP1ga/szj5078tY+/iKQ==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEBCjdepQ0+kE1zE8dCswPsOZPnYblsVinGSEPUb0PAvSYGdC0hcbTNVoeIg5ptOuSg==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "bf257856-391b-4827-9d3d-be5e4e87ff63",
+                            SecurityStamp = "39a53874-e488-4e3a-b678-3e80489e8fe7",
                             TwoFactorEnabled = false,
-                            UserName = "4cad9192-bb45-48e1-a0c5-ba882a8fed28"
+                            UserName = "c4b7a1bc-0a12-4d32-ad92-a790f16eaba4"
                         },
                         new
                         {
                             Id = "2",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "6d63a697-df70-4c10-a267-cb1a5b42b56f",
-                            Email = "arjun.asok@experionglobal.com",
+                            ConcurrencyStamp = "6d988a96-b59f-40b4-af4e-3a7b59f6437a",
+                            Email = "prince.george@experionglobal.com",
                             EmailConfirmed = false,
                             LockoutEnabled = false,
-                            NormalizedEmail = "ARJUN.ASOK@EXPERIONGLOBAL.COM",
+                            NormalizedEmail = "PRINCE.GEORGE@EXPERIONGLOBAL.COM",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "66f74707-b1f1-4c3c-aa87-577cc6303521",
+                            SecurityStamp = "79f04c19-d0f6-4c0f-850f-d9a92ac8db21",
                             TwoFactorEnabled = false,
-                            UserName = "8dd6bcdc-14f1-4cc9-a2cb-fcca79771f1a"
+                            UserName = "86247d6a-2ff0-40b5-b49c-91555250bd5f"
                         });
                 });
 
