@@ -34,3 +34,15 @@ C:\Users\prince.george\Desktop\InvoiceTrack\InvoiceFinal\Server\InvoiceTrack\Inv
 C:\Users\prince.george\Desktop\InvoiceTrack\InvoiceFinal\Server\InvoiceTrack\InvoiceTrack.Core.Domain\obj\Debug\net6.0\refint\InvoiceTrack.Core.Domain.dll
 C:\Users\prince.george\Desktop\InvoiceTrack\InvoiceFinal\Server\InvoiceTrack\InvoiceTrack.Core.Domain\obj\Debug\net6.0\InvoiceTrack.Core.Domain.pdb
 C:\Users\prince.george\Desktop\InvoiceTrack\InvoiceFinal\Server\InvoiceTrack\InvoiceTrack.Core.Domain\obj\Debug\net6.0\ref\InvoiceTrack.Core.Domain.dll
+C:\Users\fathima.as\Documents\GitHub\InvoiceFinal\Server\InvoiceTrack\InvoiceTrack.Core.Domain\bin\Debug\net6.0\InvoiceTrack.Core.Domain.deps.json
+C:\Users\fathima.as\Documents\GitHub\InvoiceFinal\Server\InvoiceTrack\InvoiceTrack.Core.Domain\bin\Debug\net6.0\InvoiceTrack.Core.Domain.dll
+C:\Users\fathima.as\Documents\GitHub\InvoiceFinal\Server\InvoiceTrack\InvoiceTrack.Core.Domain\bin\Debug\net6.0\InvoiceTrack.Core.Domain.pdb
+C:\Users\fathima.as\Documents\GitHub\InvoiceFinal\Server\InvoiceTrack\InvoiceTrack.Core.Domain\obj\Debug\net6.0\InvoiceTrack.Core.Domain.csproj.AssemblyReference.cache
+C:\Users\fathima.as\Documents\GitHub\InvoiceFinal\Server\InvoiceTrack\InvoiceTrack.Core.Domain\obj\Debug\net6.0\InvoiceTrack.Core.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fathima.as\Documents\GitHub\InvoiceFinal\Server\InvoiceTrack\InvoiceTrack.Core.Domain\obj\Debug\net6.0\InvoiceTrack.Core.Domain.AssemblyInfoInputs.cache
+C:\Users\fathima.as\Documents\GitHub\InvoiceFinal\Server\InvoiceTrack\InvoiceTrack.Core.Domain\obj\Debug\net6.0\InvoiceTrack.Core.Domain.AssemblyInfo.cs
+C:\Users\fathima.as\Documents\GitHub\InvoiceFinal\Server\InvoiceTrack\InvoiceTrack.Core.Domain\obj\Debug\net6.0\InvoiceTrack.Core.Domain.csproj.CoreCompileInputs.cache
+C:\Users\fathima.as\Documents\GitHub\InvoiceFinal\Server\InvoiceTrack\InvoiceTrack.Core.Domain\obj\Debug\net6.0\InvoiceTrack.Core.Domain.dll
+C:\Users\fathima.as\Documents\GitHub\InvoiceFinal\Server\InvoiceTrack\InvoiceTrack.Core.Domain\obj\Debug\net6.0\refint\InvoiceTrack.Core.Domain.dll
+C:\Users\fathima.as\Documents\GitHub\InvoiceFinal\Server\InvoiceTrack\InvoiceTrack.Core.Domain\obj\Debug\net6.0\InvoiceTrack.Core.Domain.pdb
+C:\Users\fathima.as\Documents\GitHub\InvoiceFinal\Server\InvoiceTrack\InvoiceTrack.Core.Domain\obj\Debug\net6.0\ref\InvoiceTrack.Core.Domain.dll

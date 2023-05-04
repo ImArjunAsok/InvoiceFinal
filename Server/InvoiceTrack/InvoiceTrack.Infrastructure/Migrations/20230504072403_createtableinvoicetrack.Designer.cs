@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace InvoiceTrack.Infrastructure.Migrations
 {
     [DbContext(typeof(InvoiceTrackDbContext))]
-    [Migration("20230503085927_CreateTables")]
-    partial class CreateTables
+    [Migration("20230504072403_createtableinvoicetrack")]
+    partial class createtableinvoicetrack
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -99,32 +99,32 @@ namespace InvoiceTrack.Infrastructure.Migrations
                         {
                             Id = "1",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "2f4892db-3031-413b-ad98-0b43ac3aacb8",
+                            ConcurrencyStamp = "6f96ae93-4697-4048-be66-a32a3aa6f302",
                             Email = "admin@mail.com",
                             EmailConfirmed = false,
                             FirstName = "Admin",
                             LastName = "Admin",
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@MAIL.COM",
-                            PasswordHash = "AQAAAAEAACcQAAAAEBCjdepQ0+kE1zE8dCswPsOZPnYblsVinGSEPUb0PAvSYGdC0hcbTNVoeIg5ptOuSg==",
+                            PasswordHash = "AQAAAAEAACcQAAAAECEHMD3Iv7kdN4csSrQ3mWDapvW/Yf9il3jujouh2ooVQrtUWtP3SXQE0iwdUt77tQ==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "39a53874-e488-4e3a-b678-3e80489e8fe7",
+                            SecurityStamp = "2efba798-4f92-48ba-ab97-48cd7386d76c",
                             TwoFactorEnabled = false,
-                            UserName = "c4b7a1bc-0a12-4d32-ad92-a790f16eaba4"
+                            UserName = "75cc2d92-686a-4f1b-bb23-60f14e06a2a7"
                         },
                         new
                         {
                             Id = "2",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "6d988a96-b59f-40b4-af4e-3a7b59f6437a",
-                            Email = "prince.george@experionglobal.com",
+                            ConcurrencyStamp = "fec91312-271f-4722-b345-8ec2957ca919",
+                            Email = "fathima.as@experionglobal.com",
                             EmailConfirmed = false,
                             LockoutEnabled = false,
-                            NormalizedEmail = "PRINCE.GEORGE@EXPERIONGLOBAL.COM",
+                            NormalizedEmail = "FATHIMA.AS@EXPERIONGLOBAL.COM",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "79f04c19-d0f6-4c0f-850f-d9a92ac8db21",
+                            SecurityStamp = "91acd7d0-ca46-4ab0-a091-378f45f119a1",
                             TwoFactorEnabled = false,
-                            UserName = "86247d6a-2ff0-40b5-b49c-91555250bd5f"
+                            UserName = "f94d7044-71ea-4377-993b-b6c175cefb21"
                         });
                 });
 
@@ -273,7 +273,7 @@ namespace InvoiceTrack.Infrastructure.Migrations
                         new
                         {
                             UserId = "2",
-                            RoleId = "3"
+                            RoleId = "2"
                         });
                 });
 

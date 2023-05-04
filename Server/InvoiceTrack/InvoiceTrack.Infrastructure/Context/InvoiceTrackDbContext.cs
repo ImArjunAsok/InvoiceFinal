@@ -71,8 +71,8 @@ namespace InvoiceTrack.Infrastructure.Context
                 {
                     Id = "2",
                     UserName = Guid.NewGuid().ToString(),
-                    Email = "prince.george@experionglobal.com",
-                    NormalizedEmail = "PRINCE.GEORGE@EXPERIONGLOBAL.COM"
+                    Email = "fathima.as@experionglobal.com",
+                    NormalizedEmail = "FATHIMA.AS@EXPERIONGLOBAL.COM"
                     //PasswordHash = hasher.HashPassword(null, password)
                 }
             );
@@ -86,7 +86,7 @@ namespace InvoiceTrack.Infrastructure.Context
             builder.Entity<IdentityUserRole<string>>().HasData(
                  new IdentityUserRole<string>
                  {
-                     RoleId = "3",
+                     RoleId = "2",
                      UserId = "2"
                  }
             );
