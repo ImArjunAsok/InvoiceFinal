@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Caveat';
+    src: url('../../assets/fonts/Caveat-Regular.ttf');
+}
+
 main {
     background-image: url("../../assets/images/bg-login.jpg");
     background-size: cover;
@@ -13,6 +18,11 @@ main {
 
 hr {
     border: 1px solid #FFFFFF;
+}
+
+p {
+    font-family: 'Caveat', sans-serif;
+    font-size: 1.4em;
 }
 
 #logo {

@@ -24,6 +24,16 @@ export class TokenHandler {
         return parsedToken;
     }
 
+    getNameFromToken(): any {
+        const parsedToken = this.getDecodedToken();
+        return parsedToken.Name;
+    }
+
+    getEmailFromToken(): any {
+        const parsedToken = this.getDecodedToken();
+        return parsedToken.Email;
+    } 
+    
     getRoleFromToken(): any {
         const parsedToken = this.getDecodedToken();
         return parsedToken.Role;

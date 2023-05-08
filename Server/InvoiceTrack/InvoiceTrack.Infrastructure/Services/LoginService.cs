@@ -64,6 +64,8 @@ namespace InvoiceTrack.Infrastructure.Services
                 new Claim(ClaimTypes.NameIdentifier, user.Id),
                 new Claim(ClaimTypes.Name, $"{user.FirstName} {user.LastName}"),
                 new Claim(ClaimTypes.Role, role),
+                new Claim("Name", $"{user.FirstName} {user.LastName}"),
+                new Claim("Email", user.Email),
                 new Claim("Role", role),
                 new Claim("UserId", user.Id),
             };

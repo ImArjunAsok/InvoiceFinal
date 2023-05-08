@@ -1,0 +1,40 @@
+<nav class="navbar">
+    <div class="logo">
+      <img src="../../../assets/images/logo.png" alt="Experion Logo">
+    </div>
+    <div class="nav-right">
+      <ul class="nav-links">
+        <li><a href="#" class="nav-item">Home</a></li>
+        <li class="dropdown">
+          <a href="#" class="nav-item">User <i class="fas fa-angle-down"></i></a>
+          <ul class="dropdown-menu">
+            <li><a href="#" class="dropdown-item">BU Heads</a></li>
+            <li><a href="#" class="dropdown-item">Project Manager</a></li>
+            <li><a href="#" class="dropdown-item">Super Admin</a></li>
+          </ul>
+        </li>
+        <li><a href="#" class="nav-item">Projects</a></li>
+        <li><a href="#" class="nav-item">Reports</a></li>
+        <li>
+          <div class="profile-dropdown" (click)="profileDropdown()">
+            <div class="circle">
+              <img id="display-picture" src="../../../assets/images/bg-login.jpg" alt="Profile Picture">
+            </div>
+            <div class="d-none dropdown-content">
+              <div class="profile-info d-flex flex-column align-items-center">
+                <h4>Hi, {{name}}</h4>
+                <p>{{role}}</p>
+                <p>{{email}}</p>
+                <div class="navigation">
+                  <a class="button" href="">
+                    <img src="../../../assets/images/logout.png">
+                    <div class="logout">LOGOUT</div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
