@@ -60,9 +60,8 @@ namespace InvoiceTrack.Infrastructure.Services
             var credentials = new SigningCredentials(signingKey, "HS256");
             var claims = new Claim[]
             {
-                new Claim(ClaimTypes.NameIdentifier, user.Id),
-                new Claim(ClaimTypes.Name, $"{user.FirstName} {user.LastName}"),
-                new Claim(ClaimTypes.Role, role),
+                new Claim("Name", $"{user.FirstName} {user.LastName}"),
+                new Claim("Email", user.Email),
                 new Claim("Role", role),
                 new Claim("UserId", user.Id),
             };

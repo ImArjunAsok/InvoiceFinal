@@ -4,6 +4,11 @@ main {
     min-height: 100vh;
 }
 
+@font-face {
+    font-family: 'Caveat Regular';
+    src: url('../../assets/fonts/Caveat-Regular.ttf');
+}
+
 #box {
 
     background-color: rgb(38, 38, 38);
@@ -17,6 +22,11 @@ hr {
 
 #logo {
     width: 80%;
+}
+
+p {
+    font-family: 'Caveat Regular', sans-serif;
+    font-size: 1.4em;
 }
 
 a {
@@ -94,7 +104,7 @@ input[type=password] {
     font-weight: 600;
     padding: 10px 20px;
     border-radius: 20px;
-} 
+}
 
 .btn:hover,
 .btn:focus {
@@ -155,4 +165,9 @@ h4:after {
 
 a {
     cursor: pointer;
+}
+
+.validation-error {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 0.9em;
 }
