@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fathima.as\\Documents\\GitHub\\InvoiceFinal\\Server\\InvoiceTrack\\InvoiceTrack.Core.Domain\\InvoiceTrack.Core.Domain.csproj": {}
+    "C:\\Users\\arjun.asok\\Documents\\GitHub\\InvoiceFinal\\Server\\InvoiceTrack\\InvoiceTrack.Core.Domain\\InvoiceTrack.Core.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fathima.as\\Documents\\GitHub\\InvoiceFinal\\Server\\InvoiceTrack\\InvoiceTrack.Core.Domain\\InvoiceTrack.Core.Domain.csproj": {
+    "C:\\Users\\arjun.asok\\Documents\\GitHub\\InvoiceFinal\\Server\\InvoiceTrack\\InvoiceTrack.Core.Domain\\InvoiceTrack.Core.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fathima.as\\Documents\\GitHub\\InvoiceFinal\\Server\\InvoiceTrack\\InvoiceTrack.Core.Domain\\InvoiceTrack.Core.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\arjun.asok\\Documents\\GitHub\\InvoiceFinal\\Server\\InvoiceTrack\\InvoiceTrack.Core.Domain\\InvoiceTrack.Core.Domain.csproj",
         "projectName": "InvoiceTrack.Core.Domain",
-        "projectPath": "C:\\Users\\fathima.as\\Documents\\GitHub\\InvoiceFinal\\Server\\InvoiceTrack\\InvoiceTrack.Core.Domain\\InvoiceTrack.Core.Domain.csproj",
-        "packagesPath": "C:\\Users\\fathima.as\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fathima.as\\Documents\\GitHub\\InvoiceFinal\\Server\\InvoiceTrack\\InvoiceTrack.Core.Domain\\obj\\",
+        "projectPath": "C:\\Users\\arjun.asok\\Documents\\GitHub\\InvoiceFinal\\Server\\InvoiceTrack\\InvoiceTrack.Core.Domain\\InvoiceTrack.Core.Domain.csproj",
+        "packagesPath": "C:\\Users\\arjun.asok\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\arjun.asok\\Documents\\GitHub\\InvoiceFinal\\Server\\InvoiceTrack\\InvoiceTrack.Core.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\fathima.as\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\arjun.asok\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
